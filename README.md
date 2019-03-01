@@ -1,2 +1,4 @@
 # weileizeng.github.io
-what is this?
+This is a website to show the github project
+
+visit https://weileizeng.github.io/
