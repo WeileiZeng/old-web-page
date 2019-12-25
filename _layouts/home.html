@@ -39,9 +39,11 @@
             {{ content }}
           </div>
           {% endunless %}
+
+	  {% include publications.html %}
 	  
         {% unless posts_total == 0 %}
-          {% include thoughts.html %}
+          {% include activities.html %}
         {% endunless %}
 	  
         {% include projects.html %}
