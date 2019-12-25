@@ -3,73 +3,20 @@ title: "List of publications"
 published: true
 ---
 
-**Hello world**, this is my first Jekyll blog post.
 
-I hope you like it!
 
-# Highlighter
-## Ruby
-```ruby
-def show
-  puts "Outputting a very lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong lo-o-o-o-o-o-o-o-o-o-o-o-o-o-o-o-ong line"
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
-```
+# publications
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+  Weilei Zeng and L.P. Pryadko, Higher-dimensional quantum
+    hypergraph-product codes.  Phys. Rev. Lett. 122, 230501 (2019).
+  <a href = "https://doi.org/10.1103/PhysRevLett.122.230501" >
+    DOI<br></a>
+Weilei Zeng, A. Ashikhmin, M. Woolls, and L. P. Pryadko, Quantum convolutional data-syndrome codes in 2019
+IEEE 20th International Workshop on Signal Processing Advances in Wireless Communications (SPAWC) (2019)
+  pp. 1–5.
+  <a href =   "http://dx.doi.org/10.1109/SPAWC.2019.8815487" > DOI <br> </a>
+  Some high light <br>
+</p>
 
-## Php
-```php
-<?php
-  print("Hello {$world}");
-?>
-```
-
-## Java
-```java
-public class java {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
-```
-
-## HTML
-```html
-<html>
-  <head><title>Title!</title></head>
-  <body>
-    <p id="foo">Hello, World!</p>
-    <script type="text/javascript">var a = 1;</script>
-    <style type="text/css">#foo { font-weight: bold; }</style>
-  </body>
-</html>
-```
-
-## Console
-```console
-# prints "hello, world" to the screen
-~# echo Hello, World
-Hello, World
-
-# don't run this
-~# rm -rf --no-preserve-root /
-```
-
-## Css
-```css
-body {
-    font-size: 12pt;
-    background: #fff url(temp.png) top left no-repeat;
-}
-```
-
-## Yaml
-```yaml
----
-one: Mark McGwire
-two: Sammy Sosa
-three: Ken Griffey
-```
+# preprints
+to be updated
