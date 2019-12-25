@@ -1,7 +1,11 @@
+#layout: stacked
+#style: light
 layout: sidebar
-style: light
+style: dark
+
 
 plugins:
+#gems:
   - jekyll-octicons
   - jekyll-github-metadata
   - jemoji
@@ -17,11 +21,11 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 3
   exclude:
     archived: false
     forks: true
@@ -43,7 +47,7 @@ projects:
   # twitter: your_username
   # unsplash: your_username
   # vk: your_username
-  # website: http://your_website_url
+    website: http://your_website_url
   # youtube: your_username
 
 topics:
