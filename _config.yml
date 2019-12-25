@@ -51,17 +51,14 @@ projects:
   # youtube: your_username
 
 topics:
-  - name: quantum simulator
-    web_url: https://quantum-computing.ibm.com/
-    image_url: https://quantum-computing.ibm.com/img/intro.c96a9d64.png
-
-  - name: Open QASM
-    web_url: https://en.wikipedia.org/wiki/OpenQASM
-
-  - name: qasm2circ
-    web_url: https://www.media.mit.edu/quanta/qasm2circ/
-    image_url: https://www.media.mit.edu/quanta/qasm2circ/test1.png
-
   - name: quantum computing report
     web_url: https://quantumcomputingreport.com/
     image_url: https://secureservercdn.net/184.168.47.225/80b.bf1.myftpupload.com/wp-content/uploads/2016/03/Block-Sphere-Large.bmp
+  - name: IBM quantum simulator/devices
+    web_url: https://quantum-computing.ibm.com/
+    image_url: https://quantum-computing.ibm.com/img/intro.c96a9d64.png
+
+  - name: Quantum circuit visualization - qasm2circ
+    web_url: https://www.media.mit.edu/quanta/qasm2circ/
+    image_url: https://www.media.mit.edu/quanta/qasm2circ/test1.png
+
