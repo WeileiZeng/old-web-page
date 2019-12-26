@@ -1,0 +1,17 @@
+echo this script will do all the procedures after updating the bib file zwl.bib
+
+filename=zwl
+echo input file: $filename.bib
+export TMPDIR=.
+./bibtex2html $filename.bib
+echo create new file without first line: short_$filename.html ( because the first line is not recognized in the markdown page
+sed '1d' $filename.html > short_$filename.html
+#sed '/pattern to match/d' ./infile
+echo remove the bibtex link. It doesn not work due to the wrong relative path
+sed -i "" "/bib.html/d" short_$filename.html
+
+#ls ../../_site/2019/12/24/publications/
+#echo copy necessary files into folder /_site/2019/12/24/publications/
+
+#cp *.html ../../_site/2019/12/24/publications/
+#ls ../../_site/2019/12/24/publications/
