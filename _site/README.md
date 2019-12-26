@@ -8,6 +8,7 @@ Your personal website is waiting to be personalized, though. It includes space t
 
 It's all possible using the combination of [Jekyll](https://jekyllrb.com/docs/) (for building your website), [GitHub Pages](https://pages.github.com/) (for hosting your website), and [GitHub's API](https://developer.github.com/v3/) (for automatically populating your website with content).
 
+<<<<<<< Updated upstream
 ## Installation
 
 ### Fork the `github/personal-website` repo
@@ -224,3 +225,8 @@ You also have the option to add on to and extend Primer's styles by adding custo
 ## License
 
 The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+=======
+### how to update publication items.
+The bib files are saved in _include/bibtex2html/
+update the zwl.bib file, then run ./update.sh
+>>>>>>> Stashed changes
