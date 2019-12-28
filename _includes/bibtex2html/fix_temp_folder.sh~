@@ -1,3 +1,0 @@
-echo fix bibtex error when can not write to xxxxx.blg
-
-export TMPDIR=.

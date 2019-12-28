@@ -1,7 +1,7 @@
 #layout: stacked
-#style: light
+style: light
 layout: sidebar
-style: dark
+#style: dark
 
 
 plugins:
@@ -9,6 +9,7 @@ plugins:
   - jekyll-github-metadata
   - jemoji
 
+future: true #show post dated in a future date
 permalink: /:year/:month/:day/:title/
 
 defaults:
@@ -32,7 +33,7 @@ projects:
      - photo-cell
     # - repo-name
 
-# social_media:
+social_media:
   # behance: your_username
   # dribbble: your_username
   # facebook: your_username
@@ -44,10 +45,10 @@ projects:
   # medium: your_username
   # stackoverflow: your_user_id
   # telegram: your_username
-  # twitter: your_username
+    twitter: 240155787
   # unsplash: your_username
   # vk: your_username
-    website: http://your_website_url
+    website: https://weileizeng.github.io/
   # youtube: your_username
 
 topics:
@@ -62,3 +63,13 @@ topics:
     web_url: https://www.media.mit.edu/quanta/qasm2circ/
     image_url: https://www.media.mit.edu/quanta/qasm2circ/test1.png
 
+  - name: John Preskill
+    web_url: http://www.theory.caltech.edu/people/preskill/
+    image_url: http://www.theory.caltech.edu/people/preskill/index_files/image002.jpg
+
+  - name: Michael Nielsen
+    web_url: http://michaelnielsen.org/
+    image_url: http://michaelnielsen.org/images/mn.jpg
+
+  - name: Daniel Gottesman
+    web_url: https://www.perimeterinstitute.ca/personal/dgottesman/index.html

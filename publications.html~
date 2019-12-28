@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+<div>
+  
+<p> nothing </p>
+
+<include src="bibtex2html/zwl.html"> include</include>
+
+<include src="bibtex2html/zwl_body.html"> include</include>
+
+<div w3-include-html="/bibtex2html/zwl.html"> w3</div>
+
+<div> {% include bibtex2html/short_zwl.html %}</div>
+
+<div> {% include /bibtex2html/zwl_body.html %}</div>
+
+
+</div>
