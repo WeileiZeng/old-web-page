@@ -1,0 +1,24 @@
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>主日讲道</h2>
+<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
+this is sunday worship
+</p>
+
+
+<!-- 
+how to use "post"
+all posts are saved and called from site.posts. It is a list in some format and can be called using index like {{ site.posts[0] }}. The properties of a post include title, date, ...
+-->
+
+
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+  
+  {% for tag in site.tags %}
+
+  {% if tag[0] == 'sunday-worship' %}
+  {% for post in tag[1] limit: 9 %}
+  <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">  {% include post-card.html %}  </div>
+  {% endfor %}
+  {% endif %}
+  {% endfor %}
+
+</div>
