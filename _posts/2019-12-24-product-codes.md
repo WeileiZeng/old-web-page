@@ -1,6 +1,7 @@
 ---
 title: "Subsystem Product Codes"
 published: true
+tags: research
 ---
 
 ## intro

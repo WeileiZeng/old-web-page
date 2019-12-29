@@ -12,16 +12,13 @@ all posts are saved and called from site.posts. It is a list in some format and 
 
 <div class="d-sm-flex flex-wrap gutter-condensed mb-4">
   
-  
-  {% for post in site.posts limit: 6 %}
+  {% for tag in site.tags %}
 
-  {% if  post.title  == 'List of publications' %}
+  {% if tag[0] == 'research' %}
+  {% for post in tag[1] limit: 9 %}
   <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">  {% include post-card.html %}  </div>
-  {% endif %}
-  {% if  post.title  ==  'Subsystem Product Codes' %}
-  <div class="col-sm-6 col-md-12 col-lg-6 col-xl-4 mb-3">  {% include post-card.html %}  </div>
-  {% endif %}
-
-  
   {% endfor %}
+  {% endif %}
+  {% endfor %}
+
 </div>
