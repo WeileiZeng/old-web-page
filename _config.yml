@@ -77,3 +77,7 @@ topics:
   - name: Scott Aaronson
     web_url: https://www.scottaaronson.com/
     image_url: https://www.scottaaronson.com/aarsmall.gif
+
+  - name: Open-Source Quantum Software Projects
+    web_url: https://github.com/qosf/awesome-quantum-software
+    image_url: https://raw.githubusercontent.com/qosf/awesome-quantum-software/master/hopf_fibration.png
