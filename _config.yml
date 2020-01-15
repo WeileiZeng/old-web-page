@@ -63,6 +63,12 @@ topics:
     web_url: https://www.media.mit.edu/quanta/qasm2circ/
     image_url: https://www.media.mit.edu/quanta/qasm2circ/test1.png
 
+
+  - name: Open-Source Quantum Software Projects
+    web_url: https://github.com/qosf/awesome-quantum-software
+    image_url: https://raw.githubusercontent.com/qosf/awesome-quantum-software/master/hopf_fibration.png
+    
+people:
   - name: John Preskill
     web_url: http://www.theory.caltech.edu/people/preskill/
     image_url: http://www.theory.caltech.edu/people/preskill/index_files/image002.jpg
@@ -78,6 +84,9 @@ topics:
     web_url: https://www.scottaaronson.com/
     image_url: https://www.scottaaronson.com/aarsmall.gif
 
-  - name: Open-Source Quantum Software Projects
-    web_url: https://github.com/qosf/awesome-quantum-software
-    image_url: https://raw.githubusercontent.com/qosf/awesome-quantum-software/master/hopf_fibration.png
+fun:
+  - name: Aerial photo by a kite
+    web_url: http://sh.sina.com.cn/news/b/2014-05-21/084995625.html
+    image_url: http://sh.sinaimg.cn/2014/0521/U10761P18DT20140521084925.jpg
+
+  - name: Flip it!
