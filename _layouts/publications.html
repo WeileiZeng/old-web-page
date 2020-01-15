@@ -26,6 +26,12 @@
             <h1 class="f00-light lh-condensed mb-5">{{ page.title }}</h1>
             {{ content }}
 	    {% include zwl_body.html %}
+
+	    <!-- other options
+	    this keep it inside the page, but some DOI links doesnot work because the site like PRL refuse to be embeded. It could be solved by adding target="_blank" for the href links, which can be done automatically. 
+	    <iframe id="testimonials" name="testimonials" src="zwl.html"; allowtransparency="true" onload="this.style.height=(this.contentDocument.body.scrollHeight+45) +'px';" scrolling="no" style="width:100%;border:none;overflow-y:hidden;overflow-x:hidden;"></iframe>
+	    -->
+
           </div>
         </div>
       </div>
