@@ -89,9 +89,30 @@ people:
     web_url: https://www.scottaaronson.com/
     image_url: https://www.scottaaronson.com/aarsmall.gif
 
+  - name: Daniel Lidar
+    web_url: http://qserver.usc.edu/
+    image_url: http://qserver.usc.edu/wordpress/wp-content/uploads/2013/04/Lidar-photo-182x209.jpg
+
 fun:
   - name: Aerial photo by a kite
     web_url: http://sh.sina.com.cn/news/b/2014-05-21/084995625.html
     image_url: http://sh.sinaimg.cn/2014/0521/U10761P18DT20140521084925.jpg
 
   - name: Flip it!
+
+links:  
+  - name: UCR physics
+    web_url: https://physics.ucr.edu/colloquia-seminars
+
+  - name: IQIM @CalTech
+    web_url: https://www.caltech.edu/campus-life-events/master-calendar/filter?date_start=&date_end=&type=all&search=&past=0&mc=1&series=420
+    description: The Institute for Quantum Information and Matter
+    
+  - name: CMP @CalTech
+    web_url: http://www.cmp.caltech.edu/seminars.html
+    description: Condensed Matter Physics
+
+  - name: IQI @CaleTech 
+    web_url: https://iqim.caltech.edu/iqi-seminars/
+    description: Institute for Quantum Information Weekly Seminars
+

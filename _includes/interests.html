@@ -10,13 +10,31 @@
 </div>
 
 
+
+<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Seminars</h2>
+
+<div class="d-flex flex-wrap gutter-condensed mb-4">
+  {% for topic in site.links %}
+  <div class="col-6 col-md-12 col-lg-6 col-xl-3 mb-3">
+
+    <div class="tooltip">
+      <a href="{{ topic.web_url }}">{{ topic.name }} </a>
+      {% if topic.description %}
+      <span class="tooltiptext">{{ topic.description }}</span>
+      {% endif %}
+      <!-- {% include topic-name.html %} --->
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+
+
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>People</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  To learn more about quantum computing.
-</p>
+
 <div class="d-flex flex-wrap gutter-condensed mb-4">
   {% for topic in site.people %}
-    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+    <div class="col-6 col-md-12 col-lg-6 col-xl-3 mb-3">
       {% include topic-card.html %}
     </div>
   {% endfor %}
@@ -25,12 +43,9 @@
 
 
 <h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>Fun</h2>
-<p class="f4 mb-4 {% if site.style == 'dark' %}text-white{% else %}text-gray{% endif %}">
-  Life is important.
-</p>
 <div class="d-flex flex-wrap gutter-condensed mb-4">
   {% for topic in site.fun %}
-    <div class="col-6 col-md-12 col-lg-6 col-xl-4 mb-3">
+    <div class="col-6 col-md-12 col-lg-6 col-xl-3 mb-3">
       {% include topic-card.html %}
     </div>
   {% endfor %}
