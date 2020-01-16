@@ -67,6 +67,11 @@ topics:
   - name: Open-Source Quantum Software Projects
     web_url: https://github.com/qosf/awesome-quantum-software
     image_url: https://raw.githubusercontent.com/qosf/awesome-quantum-software/master/hopf_fibration.png
+
+  - name: SciRate
+    web_url: https://scirate.com/
+    image_url: https://scirate.com/assets/scirate-logo-white-on-blue-670e4f99529271708e59ae4485cad9bb.png
+    
     
 people:
   - name: John Preskill
