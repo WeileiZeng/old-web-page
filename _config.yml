@@ -104,7 +104,7 @@ fun:
 
   - name: Flip it!
     web_url: https://weileizeng.com/assets/flipit
-    image_url: https://weileizeng.com/assets/flipitgame.png
+    image_url: https://weileizeng.com/assets/bg1.png
 
 links:  
   - name: UCR physics
