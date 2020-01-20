@@ -103,8 +103,8 @@ fun:
     image_url: http://sh.sinaimg.cn/2014/0521/U10761P18DT20140521084925.jpg
 
   - name: Flip it!
-    web_url: https://weileizeng.com/assets/flipit
-    image_url: https://weileizeng.com/assets/bg1.png
+    web_url: /assets/flipit
+    image_url: /assets/bg1.png
 
 links:  
   - name: UCR physics
