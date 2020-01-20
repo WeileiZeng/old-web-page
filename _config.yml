@@ -120,3 +120,6 @@ links:
     web_url: https://iqim.caltech.edu/iqi-seminars/
     description: Institute for Quantum Information Weekly Seminars
 
+# setting for ntlify
+
+repo: "https://github.com/WeileiZeng/weileizeng.github.io"
