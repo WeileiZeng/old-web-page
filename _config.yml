@@ -99,8 +99,10 @@ people:
 
 fun:
   - name: Aerial photo by a kite
-    web_url: http://sh.sina.com.cn/news/b/2014-05-21/084995625.html
-    image_url: http://sh.sinaimg.cn/2014/0521/U10761P18DT20140521084925.jpg
+    web_url: /zwl_assets/kite/
+    #http://sh.sina.com.cn/news/b/2014-05-21/084995625.html
+    image_url: /zwl_assets/kite.jpg
+    #http://sh.sinaimg.cn/2014/0521/U10761P18DT20140521084925.jpg
 
   - name: Flip it!
     web_url: /assets/flipit
